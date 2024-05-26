@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="344.0" prefWidth="342.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.agentvanzari.ViewOrdersController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <TableView fx:id="tableView">
+        <columns>
+            <TableColumn text="ID" fx:id="idColumn" />
+            <TableColumn text="Nume" fx:id="numeColumn" />
+            <TableColumn text="Prenume" fx:id="prenumeColumn" />
+            <TableColumn text="Adresă" fx:id="adresaColumn" />
+            <TableColumn text="Email" fx:id="emailColumn" />
+            <TableColumn text="Telefon" fx:id="nr_telefonColumn" />
+            <TableColumn text="Cantitate" fx:id="cantitateColumn" />
+            <TableColumn text="ID_Produs" fx:id="id_produsColumn" />
+        </columns>
+    </TableView>
+
+</VBox>
